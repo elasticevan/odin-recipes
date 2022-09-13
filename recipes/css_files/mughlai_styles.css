@@ -1,0 +1,59 @@
+* {
+    background-color: #ede7e0;
+}
+
+.header {
+    font-weight: 200px;
+    font-family: sans-serif;
+    background-image: linear-gradient(40deg, #1d521d, #00203F);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.favorite {
+    font-style: italic;
+    font-family: sans-serif;
+    color:#00203F;
+    font-weight: 400;
+}
+
+.words,
+#quote,  
+strong {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100px;
+    background-color: #00203F;
+    color:#adf0d1;
+}
+
+.title {
+    font-weight: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #adf0d1;
+    color: #00203F;
+}
+
+.subtitle {
+    font-style: italic;
+    font-weight: 100px;
+    color: #adf0d1;
+    background-color: #00203F;
+}
+
+ul,
+li,  
+em {
+    list-style-type: disc;
+    background-color: #adf0d1;
+    color: #00203F;
+    font-weight: 50px;
+    font-family: sans-serif;
+}
+
+.method li,
+dd {
+    list-style-type: number;
+    background-color: #00203F;
+    color:#adf0d1;
+    list-style-position: outside;
+}

@@ -1,0 +1,36 @@
+* {
+    background: url(https://img.freepik.com/free-photo/texture-background_1404-99.jpg?w=740&t=st=1662945729~exp=1662946329~hmac=39a9ba7c4855420343ecdecf89497a63c5b3ed32c66d76cfbfae07da3250752f);
+    background-blend-mode:soft-light;
+    background-color:bisque;
+    
+}
+
+.header {
+    background-color:aliceblue;
+    color: #f27d7c;
+}
+
+.quote,
+.subsub,
+p {
+    color: #90c38a;
+    background-color: aliceblue;
+}
+
+.subheader {
+    color: f27d7c;
+    background-color: aliceblue;
+}
+
+li, 
+em
+{
+    background-color:aliceblue;
+    color:#f27d7c
+}
+
+ul {
+    list-style-type: number;
+    background-color: aliceblue;
+    color: #f27d7c;
+}
