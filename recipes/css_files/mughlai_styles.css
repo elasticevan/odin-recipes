@@ -15,6 +15,7 @@
     font-family: sans-serif;
     color:#00203F;
     font-weight: 400;
+    text-align: right;
 }
 
 .words,
@@ -24,6 +25,10 @@ strong {
     font-weight: 100px;
     background-color: #00203F;
     color:#adf0d1;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    display: inline-block;
 }
 
 .title {
@@ -31,6 +36,9 @@ strong {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #adf0d1;
     color: #00203F;
+    text-align: center;
+    margin: 15px 200px;
+    padding: 5px;
 }
 
 .subtitle {
@@ -38,6 +46,9 @@ strong {
     font-weight: 100px;
     color: #adf0d1;
     background-color: #00203F;
+    margin: auto 100px;
+    padding: 8px;
+    text-align: center;
 }
 
 ul,
@@ -48,6 +59,8 @@ em {
     color: #00203F;
     font-weight: 50px;
     font-family: sans-serif;
+    margin: 20px;
+    padding: 8px;
 }
 
 .method li,
@@ -56,4 +69,13 @@ dd {
     background-color: #00203F;
     color:#adf0d1;
     list-style-position: outside;
+    display: block;
+}
+
+.method,
+dl {
+    background-color: #00203F;
+    color:#adf0d1;
+    margin: 8px;
+    padding: 8px;
 }

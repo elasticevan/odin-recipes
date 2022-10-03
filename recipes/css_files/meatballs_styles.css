@@ -2,35 +2,62 @@
     background: url(https://img.freepik.com/free-photo/texture-background_1404-99.jpg?w=740&t=st=1662945729~exp=1662946329~hmac=39a9ba7c4855420343ecdecf89497a63c5b3ed32c66d76cfbfae07da3250752f);
     background-blend-mode:soft-light;
     background-color:bisque;
-    
 }
 
 .header {
-    background-color:aliceblue;
-    color: #f27d7c;
+    color: transparent;
+    font-family: sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(40deg, #f27d7c, #666666);
+    -webkit-background-clip: text;
+    text-align: center;  
 }
 
 .quote,
 .subsub,
+.links,
 p {
     color: #90c38a;
     background-color: aliceblue;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    border: 10px;
+    margin: 5px;
+    display: block;
+}
+
+p {
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
 }
 
 .subheader {
     color: f27d7c;
     background-color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: auto;
+    margin: 30px 200px;
+    display: block;
 }
 
 li, 
 em
 {
     background-color:aliceblue;
-    color:#f27d7c
+    color:#f27d7c;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 5px auto;
+    text-align: left;
 }
 
 ul {
     list-style-type: number;
     background-color: aliceblue;
     color: #f27d7c;
+    padding: 10px auto;
+    margin: 10px auto;
 }
